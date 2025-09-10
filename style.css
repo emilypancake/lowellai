@@ -5,6 +5,7 @@
 article {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin: 5vw;
     padding: 5vw;
     border: 1px solid black;
     text-align: center;
