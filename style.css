@@ -10,7 +10,24 @@ article {
     border: 1px solid black;
     text-align: center;
     
+    
 }
+iframe{
+    width: 100%;
+}
+@media (max-width: 700px) {
+    article {
+        grid-template-columns: 1fr;
+        align-items: center;;
+    }
+    iframe{
+        width: 75vw;
+    }
+}
+
+
+
+
 article #leftText{
     text-align: left;
 }
