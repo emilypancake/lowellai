@@ -23,12 +23,13 @@ iframe{
     iframe{
         width: 75vw;
     }
-    h1, h2, p, a{
-        font-size: 150%;
-    }
 }
 
-
+@media (any-pointer: coarse) {
+        h1, h2, p, a{
+        font-size: 150%;
+        }
+    }
 
 
 article #leftText{
