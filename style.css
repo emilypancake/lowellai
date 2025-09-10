@@ -2,6 +2,7 @@
     width: 100vw;
 }
 
+
 article {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -18,10 +19,12 @@ iframe{
 @media (max-width: 700px) {
     article {
         grid-template-columns: 1fr;
-        align-items: center;;
     }
     iframe{
         width: 75vw;
+    }
+    h1, h2, p, a{
+        font-size: 150%;
     }
 }
 
