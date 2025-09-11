@@ -27,7 +27,7 @@ iframe{
 
 @media (any-pointer: coarse) {
         h1, h2, p, a{
-        font-size: 150%;
+        font-size: 1.7rem;
         }
     }
 
