@@ -35,6 +35,9 @@ iframe{
     h1, h2, p, a{
         font-size: 1.7rem;
     }
+    h1, h2{
+        font-weight: bold;
+    }
     #leftSocial{
         border-right: 0px;
     }   
