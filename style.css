@@ -44,13 +44,13 @@ h1 {
     font-weight: 300;
     font-style: normal;
 }
+h1:not(header h1), h2{
+        font-weight: bold;
+    }
 
 @media (any-pointer: coarse) {
     h1, h2, p, a{
         font-size: 1.6rem;
-    }
-    h1, h2{
-        font-weight: bold;
     }
     #leftSocial{
         border-right: 0px;
