@@ -45,7 +45,7 @@ h1 {
     font-style: normal;
 }
 h1:not(header h1), h2{
-        font-weight: bold;
+        font-weight: 560;
     }
 
 @media (any-pointer: coarse) {
