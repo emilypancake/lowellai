@@ -19,6 +19,13 @@ iframe{
 #leftSocial{
     border-right: 1px solid black;
 }
+
+p, a, h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 @media (max-width: 700px) {
     article {
         grid-template-columns: 1fr;
@@ -40,7 +47,7 @@ h1 {
 
 @media (any-pointer: coarse) {
     h1, h2, p, a{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     h1, h2{
         font-weight: bold;
@@ -82,11 +89,7 @@ article h2{
     border: 1px solid green;
 } */
 
-p, a, h2{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 
 
 
