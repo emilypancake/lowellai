@@ -30,6 +30,13 @@ iframe{
         border-right: 0px;
     }
 }
+h1 {
+    text-align: center;
+    color: rgb(32, 95, 94);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 @media (any-pointer: coarse) {
     h1, h2, p, a{
@@ -83,13 +90,7 @@ p, a, h2{
 
 
 
-h1 {
-    text-align: center;
-    color: rgb(32, 95, 94);
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
+
 img {
     width: 100px;
 }
