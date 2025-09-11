@@ -5,7 +5,7 @@
 
 article {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
     margin: 5vw;
     padding: 5vw;
     border: 1px solid black;
@@ -16,6 +16,9 @@ article {
 iframe{
     width: 100%;
 }
+#leftSocial{
+    border-right: 1px solid black;
+}
 @media (max-width: 700px) {
     article {
         grid-template-columns: 1fr;
@@ -23,20 +26,26 @@ iframe{
     iframe{
         width: 75vw;
     }
+    #leftSocial{
+        border-right: 0px;
+    }
 }
 
 @media (any-pointer: coarse) {
-        h1, h2, p, a{
+    h1, h2, p, a{
         font-size: 1.7rem;
-        }
     }
+    #leftSocial{
+        border-right: 0px;
+    }   
+}
 
 
 article #leftText{
     text-align: left;
 }
 
-article #social{
+/* article #social{
     display: flex;
     align-items: center;
     margin: auto;
@@ -44,7 +53,7 @@ article #social{
     text-align: center;
     gap: 20vw;
 
-}
+} */
 article #email{
     text-align: left;
 }
@@ -59,15 +68,17 @@ article h2{
 
 
 
-div{
-    /* border: 1px solid green; */
-}
+/* div{
+    border: 1px solid green;
+} */
 
 p, a, h2{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 h1 {
     text-align: center;
