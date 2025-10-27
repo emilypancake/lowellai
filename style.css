@@ -1,5 +1,7 @@
 #top{
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
+    display: block;
 }
 
 
@@ -48,9 +50,9 @@ h1:not(header h1), h2{
         font-weight: 560;
     }
 
-html, body{
-    overflow: hidden;
-}
+/* body, html{
+    overscroll-behavior: none;
+} */
 @media (any-pointer: coarse) {
     h1, h2, p, a{
         font-size: 1.6rem;
