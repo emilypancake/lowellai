@@ -50,9 +50,9 @@ h1:not(header h1), h2{
         font-weight: 560;
     }
 
-/* body, html{
+body, html{
     overscroll-behavior: none;
-} */
+}
 @media (any-pointer: coarse) {
     h1, h2, p, a{
         font-size: 1.6rem;
